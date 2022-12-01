@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: Oswald;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(253, 240, 223);
+  color: black;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+    
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url(../assets/Oswald/static/Oswald-Medium.ttf);
+}
+
+
+@font-face {
+  font-family: 'Amatic SC';
+  src: url(../assets/AmaticSC-Bold.ttf)
+}
+
+@font-face {
+  font-family: "PermanentMarker";
+  src: url(../assets/Permanent_Marker/PermanentMarker-Regular.ttf);
+}
+
+
+.chnghover:hover {
+  opacity: 0;
+} 
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  min-height: 80vh;
+  justify-content: center;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.web3apro:hover {
+  color: #ecb212;
+}
+
+.thevisiona {
+  color:"white";
+}
+
+.textvision {
+  color: white;
+  font-size: 100px;
+}
+
+
+.containerdiv {
+
+}
+
+.containerstatus {
+  padding: 10px;
+  box-shadow: 5px black solid;
+ 
+  vertical-align: middle;
+  width: 400px;
+  height: auto;
+  align-self: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: #3b66f498 4px solid ;
+
+}
+
+
+.containerstatus1 {
+  padding: 10px;
+  box-shadow: 5px black solid;
+ 
+  vertical-align: middle;
+  width: 400px;
+  height: auto;
+  align-self: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: #3b66f498 4px solid ;
+  
+
+}
+
+.buttona {
+
+  padding: 5px;
+border-radius: 2px;
+font-family: Oswald;
+text-decoration: none;
+margin: 10px;
+color: #000000;
+font-weight: 850;
+
+transition: color 0.3s ease-in-out;
+font-size: 24px;
+
+border-radius: 10px;
+padding: 5px;
+
+padding-left: 10px;
+padding-right: 10px;
+
+text-transform: uppercase;
+
+}
+.walletcontainer {
+
+
+border-radius: 0px;
+font-family: Oswald;
+text-decoration: none;
+margin: 10px;
+color: #ffffff;
+font-weight: 850;
+background-color: #5b7ab8;
+transition: color 0.3s ease-in-out;
+font-size: 24px;
+
+border-radius: 10px;
+padding: 7px;
+text-align: right;
+padding-left: 50px;
+padding-right: 50px;
+
+text-transform: uppercase;
+
+}
+
+
+.waleltliststatusnegative {
+  background-color: #fc0d0da7;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.walletliststatuspositive {
+  background-color: #6cb50da7;
+  border-radius: 30px;
+  padding: 4px;
+  font-size: 20px;
+  color: #ffffff;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.container2 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.walletbalanceshowcase {
+  background-color: #00aaff56;
+  padding: 10px;
+  border-radius: 10px;
+
+  
+justify-content: center;
+  width: 50%;
+  text-align: center;
+  font-weight: 800;
+}
+
+.btn {
+  background-color: rgb(0, 0, 0);
+  border: 1px black solid;
+}
