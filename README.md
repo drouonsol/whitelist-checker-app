@@ -1,62 +1,70 @@
-# Create Solana Dapp with Next.JS
+# Getting Started with Create React App
 
-Want to start develop with Solana fetching NFTs from the blockchain or power-up your [Anchor](https://project-serum.github.io/anchor/getting-started/introduction.html) app with UI?   
-This boilerplate can be used to setup your UI with React.JS / Next.JS and deploy it to [Vercel Platform](https://vercel.com/) in just a minutes.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
+In the project directory, you can run:
 
-https://user-images.githubusercontent.com/188568/152035121-400a89b2-a5f7-4dca-9abd-b5991dc99f2c.mp4
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-## 🛵 ◍ Demo: https://create-dapp-solana-nextjs.vercel.app/
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-This project includes:
+### `npm run build`
 
-- Next.JS
-- TypeScript
-- [@solana/wallet-adapter](https://github.com/solana-labs/wallet-adapter) and [@solana/web3.js](https://solana-labs.github.io/solana-web3.js) for interactions with wallets & blockchain.
-- Tailwind CSS (with [daisyUI](https://daisyui.com/))
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Getting Started
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-First, run the development server:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```bash
-yarn
-yarn run dev
-```
+### `npm run eject`
 
-// TODO
-If you deploy new Candy Machine you can update UI config here: `./src/config/candy-machine.config.js`.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Style
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-[Tailwind CSS](https://tailwindcss.com/) or [daisyUI](https://daisyui.com/) are selected tools for rapid style development.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You can quickly change theme changing `daisy.themes` within `./tailwind.config.js`.
-More info here: https://daisyui.com/docs/default-themes
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-This app encourage you to use CSS Modules over other style technics (like SASS/LESS, Styled Components, usual CSS).
-It have modular nature and supports modern CSS. [Read more on Next.JS site](https://nextjs.org/docs/basic-features/built-in-css-support).
-Anyway, if you want to connect LESS there is example code in `./next.config.js`
+## Learn More
 
-## Deploy on Vercel
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Before push run localy `npm run build` to make sure app can be build succesffully on vercel .
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Vercel will automatically create environment and deployment for you if you have vercel account connected to your GitHub account. Go to the vercel.com to connect it.
-Then any push to `main` branch will automatically rebuild and redploy app.
+### Code Splitting
 
-### Possible Issues 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- You might [need to overwrite default output derictory](https://github.com/thuglabs/create-dapp-solana-nextjs/issues/23) for vercel settings if you see [`Routes Manifest Could Not Be Found
-`](https://github.com/vercel/vercel/blob/main/errors/now-next-routes-manifest.md) error.
+### Analyzing the Bundle Size
 
-## Templates
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-This boilerplate includes some templates you may find useful:
+### Making a Progressive Web App
 
-- NFT Gallery Template
-- UI for Anchor app (Anchor program based on [this tutorial](https://lorisleiva.com/create-a-solana-dapp-from-scratch))
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
